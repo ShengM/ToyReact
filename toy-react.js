@@ -8,7 +8,8 @@ export class Component {
   constructor() {
     this.props = Object.create(null);
     this.children = [];
-    this._root = null;
+    this._range = null;
+    this._vdom = null;
   }
 
   setAttribute(name, value) {
